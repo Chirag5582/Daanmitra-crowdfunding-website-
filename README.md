@@ -1,0 +1,2 @@
+- Add .env file inside /backend folder.
+- Also add .env.local file in root directory.
