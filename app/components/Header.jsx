@@ -93,7 +93,7 @@ function Header() {
                   onClick={() => setIsOpen(false)}
                   className={`block py-2 px-2 rounded-md text-lg font-medium ${
                     isActive(path)
-                      ? "text-blue-700 dark:text-white bg-blue-700"
+                      ? "text-blue-700 dark:text-white bg-purple-700"
                       : "text-gray-700 hover:text-blue-700 dark:text-gray-400 dark:hover:text-white"
                   }`}
                 >

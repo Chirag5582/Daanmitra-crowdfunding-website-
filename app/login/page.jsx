@@ -84,7 +84,7 @@ function Login() {
       if (res.success) {
         notifysuccess("Login successful");
         setTimeout(() => {
-          router.push("/pages/Dashboard");
+          router.push("/pages/user/dashboard");
           setLoginform({ email: "", password: "" });
           setFlipped(false);
         }, 2000);
